@@ -1,0 +1,180 @@
+﻿{
+    "name":  "论文工作流skill",
+    "createdDate":  "2026-05-24",
+    "purpose":  "论文写作、AIGC表达优化、格式处理、文献引用、科研输出和多角色审查的可导出skill集合",
+    "installableSkills":  [
+                              {
+                                  "name":  "aigc-academic-expression-optimizer",
+                                  "category":  "core-aigc-format",
+                                  "exportPath":  "01-core-aigc-format/aigc-academic-expression-optimizer",
+                                  "sourceType":  "custom-local",
+                                  "sourcePath":  "01-core-aigc-format/aigc-academic-expression-optimizer",
+                                  "workflowRole":  "AIGC报告驱动的整篇论文表达优化流程控制",
+                                  "installable":  true
+                              },
+                              {
+                                  "name":  "aigc-academic-expression-optimization",
+                                  "category":  "core-aigc-format",
+                                  "exportPath":  "01-core-aigc-format/aigc-academic-expression-optimization",
+                                  "sourceType":  "custom-local",
+                                  "sourcePath":  "01-core-aigc-format/aigc-academic-expression-optimization",
+                                  "workflowRole":  "段落级学术表达优化策略",
+                                  "installable":  true
+                              },
+                              {
+                                  "name":  "thesis-format-module-editor",
+                                  "category":  "core-aigc-format",
+                                  "exportPath":  "01-core-aigc-format/thesis-format-module-editor",
+                                  "sourceType":  "custom-local",
+                                  "sourcePath":  "01-core-aigc-format/thesis-format-module-editor",
+                                  "workflowRole":  "论文Word格式识别和分模块修改",
+                                  "installable":  true
+                              },
+                              {
+                                  "name":  "nature-writing",
+                                  "category":  "writing-polishing",
+                                  "exportPath":  "02-writing-polishing/nature-writing",
+                                  "sourceType":  "installed-copy",
+                                  "sourcePath":  "02-writing-polishing/nature-writing",
+                                  "upstream":  "Yuan1z0825/nature-skills/skills/nature-writing",
+                                  "workflowRole":  "论文段落写作与结构重构",
+                                  "installable":  true
+                              },
+                              {
+                                  "name":  "nature-polishing",
+                                  "category":  "writing-polishing",
+                                  "exportPath":  "02-writing-polishing/nature-polishing",
+                                  "sourceType":  "installed-copy",
+                                  "sourcePath":  "02-writing-polishing/nature-polishing",
+                                  "upstream":  "Yuan1z0825/nature-skills/skills/nature-polishing",
+                                  "workflowRole":  "学术表达润色、翻译和语言质量提升",
+                                  "installable":  true
+                              },
+                              {
+                                  "name":  "nature-response",
+                                  "category":  "writing-polishing",
+                                  "exportPath":  "02-writing-polishing/nature-response",
+                                  "sourceType":  "installed-copy",
+                                  "sourcePath":  "02-writing-polishing/nature-response",
+                                  "upstream":  "Yuan1z0825/nature-skills/skills/nature-response",
+                                  "workflowRole":  "审稿意见回复与修回信",
+                                  "installable":  true
+                              },
+                              {
+                                  "name":  "nature-academic-search",
+                                  "category":  "literature-citation-reading",
+                                  "exportPath":  "03-literature-citation-reading/nature-academic-search",
+                                  "sourceType":  "installed-copy",
+                                  "sourcePath":  "03-literature-citation-reading/nature-academic-search",
+                                  "upstream":  "Yuan1z0825/nature-skills/skills/nature-academic-search",
+                                  "workflowRole":  "文献检索、标识符查询和引用文件管理",
+                                  "installable":  true
+                              },
+                              {
+                                  "name":  "nature-citation",
+                                  "category":  "literature-citation-reading",
+                                  "exportPath":  "03-literature-citation-reading/nature-citation",
+                                  "sourceType":  "installed-copy",
+                                  "sourcePath":  "03-literature-citation-reading/nature-citation",
+                                  "upstream":  "Yuan1z0825/nature-skills/skills/nature-citation",
+                                  "workflowRole":  "正文补引用、支撑文献匹配和引用导出",
+                                  "installable":  true
+                              },
+                              {
+                                  "name":  "nature-reader",
+                                  "category":  "literature-citation-reading",
+                                  "exportPath":  "03-literature-citation-reading/nature-reader",
+                                  "sourceType":  "installed-copy",
+                                  "sourcePath":  "03-literature-citation-reading/nature-reader",
+                                  "upstream":  "Yuan1z0825/nature-skills/skills/nature-reader",
+                                  "workflowRole":  "论文阅读、翻译和中英文对照材料",
+                                  "installable":  true
+                              },
+                              {
+                                  "name":  "nature-data",
+                                  "category":  "research-outputs",
+                                  "exportPath":  "04-research-outputs/nature-data",
+                                  "sourceType":  "installed-copy",
+                                  "sourcePath":  "04-research-outputs/nature-data",
+                                  "upstream":  "Yuan1z0825/nature-skills/skills/nature-data",
+                                  "workflowRole":  "数据可用性、数据仓库和FAIR元数据",
+                                  "installable":  true
+                              },
+                              {
+                                  "name":  "nature-figure",
+                                  "category":  "research-outputs",
+                                  "exportPath":  "04-research-outputs/nature-figure",
+                                  "sourceType":  "installed-copy",
+                                  "sourcePath":  "04-research-outputs/nature-figure",
+                                  "upstream":  "Yuan1z0825/nature-skills/skills/nature-figure",
+                                  "workflowRole":  "科研图件制作、审查和导出",
+                                  "installable":  true
+                              },
+                              {
+                                  "name":  "nature-paper2ppt",
+                                  "category":  "research-outputs",
+                                  "exportPath":  "04-research-outputs/nature-paper2ppt",
+                                  "sourceType":  "installed-copy",
+                                  "sourcePath":  "04-research-outputs/nature-paper2ppt",
+                                  "upstream":  "Yuan1z0825/nature-skills/skills/nature-paper2ppt",
+                                  "workflowRole":  "从论文生成汇报、组会或答辩PPT",
+                                  "installable":  true
+                              },
+                              {
+                                  "name":  "multi-agent-workflow",
+                                  "category":  "coordination-review",
+                                  "exportPath":  "05-coordination-review/multi-agent-workflow",
+                                  "sourceType":  "installed-copy",
+                                  "sourcePath":  "05-coordination-review/multi-agent-workflow",
+                                  "workflowRole":  "论文逻辑、数据、格式等多角色审查协调",
+                                  "installable":  true
+                              }
+                          ],
+    "externalDependencies":  [
+                                 {
+                                     "name":  "documents:documents",
+                                     "category":  "plugin-dependency",
+                                     "sourceType":  "codex-plugin",
+                                     "workflowRole":  "Word DOCX创建、编辑、渲染检查和版本化输出",
+                                     "installable":  false
+                                 },
+                                 {
+                                     "name":  "spreadsheets:Spreadsheets",
+                                     "category":  "plugin-dependency",
+                                     "sourceType":  "codex-plugin",
+                                     "workflowRole":  "Excel/CSV数据整理、公式、图表和表格分析",
+                                     "installable":  false
+                                 },
+                                 {
+                                     "name":  "presentations:Presentations",
+                                     "category":  "plugin-dependency",
+                                     "sourceType":  "codex-plugin",
+                                     "workflowRole":  "PPT/PPTX生成、编辑和导出",
+                                     "installable":  false
+                                 },
+                                 {
+                                     "name":  "skill-installer",
+                                     "category":  "system-skill",
+                                     "sourceType":  "codex-system",
+                                     "workflowRole":  "安装或更新外部skill",
+                                     "installable":  false
+                                 },
+                                 {
+                                     "name":  "skill-creator",
+                                     "category":  "system-skill",
+                                     "sourceType":  "codex-system",
+                                     "workflowRole":  "创建或维护可复用skill",
+                                     "installable":  false
+                                 }
+                             ],
+    "recommendedRouting":  [
+                               "AIGC检测报告优化: aigc-academic-expression-optimizer + aigc-academic-expression-optimization + documents:documents",
+                               "论文套格式: thesis-format-module-editor + documents:documents",
+                               "论文写作重构: nature-writing",
+                               "论文润色翻译: nature-polishing",
+                               "文献检索和引用: nature-academic-search + nature-citation",
+                               "论文阅读翻译: nature-reader",
+                               "图表和科研输出: nature-data + nature-figure + nature-paper2ppt",
+                               "多角色审查: multi-agent-workflow"
+                           ]
+}
